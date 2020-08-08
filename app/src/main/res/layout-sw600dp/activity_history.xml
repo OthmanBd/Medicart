@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.technion.android.medicart.HistoryActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pills4"
+        android:alpha="0.6"
+        />
+
+<Button
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/medicalHistory"
+    android:layout_above="@id/history_caregivers"
+    android:onClick="medicalHistory"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/button_red"
+    android:textColor="#FFF"
+    />
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/CaregiversHistory"
+        android:layout_above="@id/history_treatment"
+        android:onClick="caregiversHistory"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/history_caregivers"
+        android:layout_marginTop="15sp"
+        android:background="@drawable/button_blue"
+        android:textColor="#FFF"
+        />
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="give treatment"
+        android:layout_marginTop="15dp"
+        android:id="@+id/history_treatment"
+        android:onClick="giveTreatment"
+        android:background="@drawable/button_red"
+        android:textColor="#FFF"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/bt_name"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/bt_name"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/bt_address"
+        />
+
+</RelativeLayout>

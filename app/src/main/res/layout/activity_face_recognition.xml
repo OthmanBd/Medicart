@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.technion.android.medicart.FaceRecognitionActivity">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/face_recognition_imageview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+        android:id="@+id/face_recognition_gallery"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/face_recognition_imageview"
+        android:layout_toLeftOf="@id/face_recognition_button_detect"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_blue"
+        android:text="Gallery"
+        android:textColor="#FFF" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:text="camera"
+        android:background="@drawable/button_red"
+        android:textColor="#FFF"
+        android:id="@+id/face_recognition_camera"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/face_recognition_imageview"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/face_recognition_button_detect"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/face_recognition_button_detect"
+        android:layout_below="@id/face_recognition_gallery"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="detect"
+        android:background="@drawable/button_red"
+        android:textColor="#FFF"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/face_recognition_button_identify"
+        android:layout_below="@id/face_recognition_button_detect"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="identify"
+        android:background="@drawable/button_blue"
+        android:textColor="#FFF"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/face_recognition_textview"
+        android:layout_below="@id/face_recognition_button_identify"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="40dp"
+        android:id="@+id/face_recognition_viewButton"
+        android:text="View"
+        android:layout_below="@id/face_recognition_textview"
+        android:onClick="ViewPatient"
+        android:background="@drawable/button_red"
+        android:textColor="#FFF"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<resources>
+    <string-array name="numbers">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="BloodType">
+        <item>Blood type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+    <string name="app_name">Medicart</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signin">Sign in</string>
+    <string name="signout">Sign Out</string>
+    <string name="medicart">MediCart</string>
+    <string name="weight">Weight</string>
+    <string name="height">Height</string>
+    <string name="bloodType">Blood Type</string>
+    <string name="blodPressure">blood pressure</string>
+    <string name="allergies">Allergies</string>
+    <string name="doctorsName">Doctor\'s name</string>
+    <string name="diagnosis">Diagnosis</string>
+    <string name="prescription">Prescription</string>
+    <string name="addPatient">Add Patient</string>
+    <string name="scanPatient">Scan Patient</string>
+    <string name="medicalHistory">Medical history</string>
+    <string name="CaregiversHistory">Caregivers History</string>
+    <string name="historyLog">History log</string>
+    <string name="patientsName">Full name</string>
+    <string name="id">ID</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="view">View patient</string>
+    <string name="profile">View profile</string>
+
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnalyseActivity">
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/analyse_imageview"
+        android:src="@drawable/angelina"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analyse_button"
+        android:layout_below="@id/analyse_imageview"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="analyse"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/analyse_textview"
+        android:layout_below="@id/analyse_button"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>

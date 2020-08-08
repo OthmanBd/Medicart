@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blue_border"
+        >
+
+        <TextView
+            android:id="@+id/caregiver_date_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:text="Time"
+            android:textColor="#000"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/caregiver_time_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/caregiver_date_textview"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="Date"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+
+        <TextView
+            android:id="@+id/caregiver_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Name"
+            android:textSize="22sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="5dp"
+            android:textColor="#000"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/caregiver_email_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Email"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="5dp"
+            android:textColor="#000"
+            android:layout_below="@id/caregiver_name_textview"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

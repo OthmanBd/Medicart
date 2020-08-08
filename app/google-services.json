@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "30186755604",
+    "firebase_url": "https://medicart-4d552.firebaseio.com",
+    "project_id": "medicart-4d552",
+    "storage_bucket": "medicart-4d552.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30186755604:android:3a3766324b0bfae04a7901",
+        "android_client_info": {
+          "package_name": "com.technion.android.medicart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30186755604-fos5dg4p6kbh07s1c6i6jrp8vkdqa650.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBh_Vy7fa-r1dZwYKeskidqCAvQ0dKqzBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30186755604-fos5dg4p6kbh07s1c6i6jrp8vkdqa650.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
